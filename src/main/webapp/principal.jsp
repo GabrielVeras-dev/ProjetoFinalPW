@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,9 +14,10 @@
 </head>
 <body>
     <div id="login-container">
-        <h1>Login</h1>
-        <form action="Controller" method="post"">
-            <label for="nome">Nome:</label>
+        <h3>Bem vindo(a) aos nossos serviços de booking</h3>
+        <form action="HotelController" method="post">
+            <label>Por gentileza, insira seu nome abaixo</label>
+           <!-- <label for="nome">Nome:</label>-->
             <input type="text" name="nome" id="nome" placeholder="Digite seu nome"></input>
             <p>
 
@@ -23,6 +26,6 @@
         </form>
 
     </div>
-	teste 
+	
 </body>
 </html>
